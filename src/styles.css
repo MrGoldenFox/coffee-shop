@@ -1,0 +1,37 @@
+*,
+*:active,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist";
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --primary: #ffffff;
+  --secondary: #ffffff;
+  --body: #ffffff80;
+  --accent: #c99e71;
+  --accent-20: #c99e7120;
+  --bg: #14110e;
+  --bg-accent: #1c1814;
+  --bg-accent-2: #121315;
+  --border: #32323d;
+  --not-accent: #ffffff50;
+}

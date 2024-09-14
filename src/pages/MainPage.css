@@ -1,0 +1,432 @@
+main {
+  padding: 1rem 5vw;
+  background-color: var(--bg);
+}
+
+.section-space {
+  padding: 2rem 0;
+  margin: 5vw 0;
+}
+
+.section-process {
+  display: flex;
+  margin: 0 auto;
+  gap: 1vw;
+  font-family: "Righteous";
+  flex-direction: column;
+}
+
+.article-process > img {
+  display: block;
+  max-width: 100%;
+}
+
+.p-process {
+  color: var(--primary);
+  margin: 2rem 0 0.25rem;
+  text-wrap: nowrap;
+  font-size: 0.9em;
+}
+
+.span-process {
+  margin-right: 0.5rem;
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.section-history {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-history > img {
+  max-width: 100%;
+}
+
+.article-history {
+  background-color: var(--bg-accent);
+  padding: 1rem;
+}
+
+.article-history > span {
+  display: block;
+  color: var(--accent);
+}
+
+.article-history > h2 {
+  color: var(--primary);
+}
+
+.article-history > p {
+  color: var(--body);
+  max-width: 30rem;
+}
+
+.coffee-popular {
+  text-align: center;
+}
+
+.p-title {
+  font-weight: 600;
+  font-size: 1em;
+  color: var(--accent);
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Righteous";
+  color: var(--primary);
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.article-popular {
+  text-transform: uppercase;
+  font-size: 4vw;
+}
+
+.article-popular > div {
+  padding: 1rem;
+  background-color: var(--bg-accent-2);
+  margin-block: 1rem;
+}
+
+.article-popular > div > p > span {
+  color: var(--accent);
+}
+
+.article-popular > div > p > img {
+  color: var(--accent);
+  max-height: 0.75rem;
+}
+
+.article-popular > div > p {
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.article-popular > div > h4 {
+  color: var(--primary);
+  font-size: 1.2em;
+  font-weight: 200;
+  font-family: "Righteous";
+}
+
+.span-name {
+  margin-right: 1rem;
+}
+
+.product-btn {
+  margin: 1rem;
+  color: var(--primary);
+  background-color: var(--accent);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.advertising {
+  padding: 1rem;
+  background-color: var(--bg-accent);
+}
+
+.article-advertising > h5 {
+  font-size: 1.5em;
+  color: var(--primary);
+  margin-bottom: 0;
+}
+
+.article-advertising > p {
+  color: var(--body);
+  line-height: 1.5;
+}
+
+.article-advertising > button {
+  background-color: var(--accent);
+  padding: 0.75rem 1.5rem;
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+.menu-section {
+  text-align: center;
+}
+
+.menu-section > article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.125rem;
+}
+
+.proposition {
+  border-bottom: var(--border) solid 0.125rem;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.cup-of-coffee {
+  max-width: 4rem;
+}
+
+.name-cup-of-coffee {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.price-cup-of-coffee {
+  color: var(--accent);
+  margin-left: auto;
+}
+
+.testimonial-section {
+  justify-content: center;
+  gap: 5vw;
+}
+
+.testimonial-article {
+  background-color: var(--bg-accent);
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+.testimonial-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.testimonial-photo {
+  width: 50%;
+  height: auto;
+  max-height: 100%;
+}
+
+.p-testimonial-text {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  line-height: 1.5;
+  color: var(--body);
+  font-weight: 500;
+  font-size: 1em;
+  max-width: 20rem;
+}
+
+.name-testimonial {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-bottom: 1rem;
+}
+
+.p-testimonial-job {
+  color: var(--not-accent);
+  font-weight: 500;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.stars {
+  height: 1rem;
+  margin-right: auto;
+}
+
+.booking-article {
+  background-color: var(--bg-accent);
+  padding: 0.5rem;
+}
+
+.map {
+  cursor: pointer;
+}
+
+.p-name-news > span {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.p-name-news {
+  color: var(--primary);
+}
+
+.p-date-news {
+  color: var(--primary);
+}
+
+.h5-news {
+  color: var(--primary);
+  font-family: "Righteous";
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.btn-news {
+  color: var(--accent);
+  font-weight: 500;
+  padding: 0.25rem;
+}
+
+.div-news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-news {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article-news > aside {
+  padding: 5vw;
+  background-color: var(--bg-accent);
+}
+
+@media (min-width: 550px) {
+  .section-process {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-history {
+    flex-direction: row;
+  }
+
+  .section-history > img {
+    max-width: 50%;
+  }
+
+  .article-history > h2 {
+    font-size: 3.8vw;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 3.8vw;
+    margin: 0.75rem 0 2vw;
+  }
+
+  .article-popular {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    flex: 1;
+    font-size: 2vw;
+  }
+
+  .advertising {
+    display: flex;
+  }
+
+  .advertising > img {
+    max-width: 50%;
+  }
+
+  .article-advertising > h5 {
+    font-size: 3.8vw;
+    margin-bottom: 1vw;
+    line-height: 1;
+  }
+
+  .menu-section > article {
+    gap: 1rem;
+  }
+
+  .testimonial-div {
+    flex-direction: row;
+  }
+
+  .stars {
+    margin: auto 0 0 auto;
+  }
+
+  .p-testimonial-text {
+    font-size: 1.2em;
+  }
+
+  .article-news {
+    flex-direction: row;
+    gap: 0.125rem;
+  }
+
+  .h5-news {
+    font-size: 1em;
+  }
+
+  .article-news > aside {
+    padding: 2vw;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 5vw 15vw;
+  }
+
+  .section-process {
+    gap: 5vw;
+  }
+
+  .p-process {
+    font-size: 1em;
+  }
+
+  .article-process {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-history {
+    padding: 2.5vw;
+  }
+
+  .article-history > p {
+    font-size: 1.5vw;
+    line-height: 1.3;
+  }
+
+  .article-popular {
+    font-size: 1rem;
+  }
+
+  .booking-section {
+    display: flex;
+  }
+
+  .booking-section > img {
+    max-width: 50%;
+  }
+
+  .booking-article {
+    padding: 5vw;
+  }
+}
+
+@media (min-width: 1248px) {
+  .article-history {
+    padding: 3.5vw;
+  }
+  .proposition {
+    width: 49%;
+  }
+
+  .p-testimonial-text {
+    font-size: 1.5em;
+  }
+
+  .testimonial-photo {
+    width: 30%;
+  }
+}
